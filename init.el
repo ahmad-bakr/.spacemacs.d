@@ -334,9 +334,7 @@ This is the place where most of your configurations should be done. Unless it is
 explicitly specified that a variable should be set before a package is loaded,
 qyou should place your code here."
 
- (setq neo-theme (if (display-graphic-p) 'icons 'arrow))
-
- ;; (set-face-attribute 'default nil :height 132)
+ (setq projectile-enable-caching t) 
 
  (global-set-key [f8] 'neotree-toggle)
  (global-set-key (kbd "C-c n") 'neotree-dir)
